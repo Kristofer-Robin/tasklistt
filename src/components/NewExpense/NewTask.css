@@ -1,0 +1,37 @@
+.new-task {
+    background-color: rgb(260, 260, 260);
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 95%;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-task button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #aa025d;
+    background-color: #aa025d;
+    color: white;
+    border-radius: 20px;
+}
+
+.new-task button:hover,
+.new-task button:active {
+    background-color: #88025d;
+    border-color: #88025d;
+}
+
+.new-task button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.new-task button.alternative:hover,
+.new-task button.alternative:active {
+    background-color: #ddb3f8;
+}
